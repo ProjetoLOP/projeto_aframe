@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+.container {
+    position: relative;
+    margin-top: 20px;
+}
+#video {
+    transform: scaleX(-1);
+    display: none; /* Esconde o vídeo */
+}
+#canvas {
+    background: #1b2531;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+    border-radius: 8px; /* Cantos arredondados */
+}
